@@ -1,0 +1,6 @@
+/node_modules
+/.env
+.DS_Store
+/logs
+.env.example
+.env.test.example   
