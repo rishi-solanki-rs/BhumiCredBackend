@@ -3,5 +3,4 @@
 .DS_Store
 /logs
 .env.example
-.env.test.example
 /src/credentials/google-service-account.json
