@@ -8,7 +8,10 @@ dotenv.config()
 
 const app = express()
 app.use(cors({
-  origin: ["https://bhumi-cred-m5d4fqrbw-developer01-s-projects.vercel.app","http://localhost:5173"],
+  origin: ["https://bhumi-cred-m5d4fqrbw-developer01-s-projects.vercel.app",
+    "http://localhost:5173",
+    "https://www.bhumicred.in"
+  ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
